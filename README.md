@@ -9,7 +9,7 @@ An SimpleHTTPServer variant that considers torrents as local folders (and can pl
 It only works with libtorrent version prior to 1
 
 ```bash 
-  sudo apt-get install -y libboost1.50-all-dev automake autoconf libtool build-essential
+  sudo apt-get install -y libboost1.55-all-dev automake autoconf libtool build-essential
   wget http://downloads.sourceforge.net/project/libtorrent/libtorrent/libtorrent-rasterbar-1.0.1.tar.gz
   tar -xvzf libtorrent-rasterbar-1.0.1.tar.gz 
   cd libtorrent-rasterbar-1.0.1
@@ -22,8 +22,8 @@ It only works with libtorrent version prior to 1
 Then:
 
 ```
-git clone https://github.com/PeerBay/peerMagnet/
-cd peerMagnet
+https://github.com/PeerBay/PeerStream.git
+cd PeerStream
 ```
 Start it with 
 ```
